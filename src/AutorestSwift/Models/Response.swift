@@ -7,9 +7,4 @@
 
 import Foundation
 
-public typealias Response = Compose<ResponseProperty, Metadata>
-
-public struct ResponseProperty: Codable {
-    public let schema: Schema
-
-}
+public typealias Response = Metadata
